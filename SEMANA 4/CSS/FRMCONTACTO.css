@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(211, 180, 240);
+}
+header{
+    background-color: black !important;
+    border:2px solid blue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+}
+header img{
+    padding: 20px;
+}
+nav{
+    background-color: rgba(0, 255, 255, 0.24);
+    border:2px solid rgb(198, 219, 155);
+    border-radius: 22px;
+    }
+nav p{
+    text-align: center;
+    color: rgb(175, 114, 40);
+    font-size: 40px;
+}
+section{
+    width: 40%;
+    border:2px solid burlywood;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px auto;
+    background: linear-gradient(rgb(185, 73, 91),burlywood);
+}
+form{
+    background: silver;
+    width: 70%;
+    border-radius: 20px;
+    margin: 10px auto;
+    box-shadow:outset 0 0 8px rebeccapurple; 
+    }
+    fieldset{
+        border-style: none;
+    }
+    label{
+        font-size: 18px;
+    }
+    textarea{
+        resize: both;
+        max-height: 100px;
+    }
+    input:focus, textarea:focus{
+        border-color: blue;
+        cursor:pointer;
+        box-shadow: inset 0 0 8px blue;
+        outline: 0 none;
+    }
+    form button{
+        width: 40%;
+        margin: 10px;
+        height: 40px;
+        background: radial-gradient(teal,white);
+        color: whitesmoke;
+        border-radius: 15px;
+    }
+    form button:hover{
+        background: lightblue;
+        text-decoration: underline;
+        color: black;
+        cursor: pointer;
+    }
+    form input{
+        height: 20px;
+        box-sizing: border-box;
+        color: black;
+        outline: none;
+        border:2px solid blue;
+    }
+    footer{
+        font-size: 16px;
+        text-align: center;
+        color: azure;
+    }

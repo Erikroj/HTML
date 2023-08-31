@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(165, 99, 226);
+}
+header{
+    background-color: black !important;
+    border:2px solid blue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+}
