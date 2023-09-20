@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    max-height: 100%;
+}
+body{
+    font-family: Tahoma;
+    font-size: 18px;
+    background-image: url(../IMG/incap\ se\ invencible2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+#header{
+    background-color: lightcoral;
+    border:2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-area: header; /*nombre para CSS GRID*/
+}
+#menu{
+    grid-area: nav;/*nombre para CSS GRID*/
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+ul{
+    padding: 0;
+    margin: 0 1px;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin:0 5px;
+    font:bold 12px verdana;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#buscarbox input{
+    height: 25px;
+    width: 0px;
+    padding: 0;
+    border: 0px;
+    border-radius: 40px;
+    padding-right: 50px;
+    transition: 0.8s ease;
+}
+#buscarbox input:hover{
+    width: 150px;
+    padding: 10px;
+    outline: none;
+}
+#main{
+    grid-area: main;/*nombre para CSS GRID*/
+    background-color: rgba(255,255,255,0.6);
+    backdrop-filter: blur(5px);/* efecto Glass*/
+    border: 2px solid black; 
+    max-width: 100%;
+    height: auto;
+}
+figure{
+    display: inline;
+    margin: 45px;
+    padding: 5px;
+}
+.programa{
+    display: inline-block;
+    margin:5px;
+    padding: 5px;
+    width: 45%;
+    height: 200px;
+    position: relative;
+    border:1px solid blue;
+    border-radius: 15px;
+}
+section article{
+    margin:20px;
+    background-color: rgba(255,255,255,0.6);
+    backdrop-filter: blur(5px);/* efecto Glass*/
+}
+#sidebar{
+    grid-area:sibebar;/*nombre para CSS GRID*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,0.6);
+    backdrop-filter: blur(5px);/* efecto Glass*/
+}
+iframe{
+    max-width: 100%;
+    height: auto;
+}
+#footer{
+    grid-area: footer;/*nombre para CSS GRID*/
+    padding-top: 20px;
+    border:2px solid yellowgreen;
+    border-radius: 20px;
+    clear: both;
+    background-color: rgba(255,255,255,0.6);
+    backdrop-filter: blur(5px);/* efecto Glass*/
+}
+#redes a{
+    padding: 5px;
+    margin: 0;
+}
+#redes a i:hover{
+    transform: scale(1.5);/*animacion de aumento tamaño*/
+}
+i[class^="fa"]{
+    color:gr ;
+}
